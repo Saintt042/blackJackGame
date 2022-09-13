@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+
+body{
+    background: url(./images/bgimg.jpg);
+    background-size: cover;
+    margin-top: 75px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
     font-family: 'Milonga', cursive; 
 }
 
-body{
-    background: red;
+
+
+.container .main,
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h1{
+    color: goldenrod;
+}
+
+#message-El{
+    font-style: italic;
+}
+
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-top: 4px;
 }
