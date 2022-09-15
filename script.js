@@ -21,7 +21,7 @@ playerEl.textContent = player.name + ": $" + player.chips
 
 
 function startGame(){
-    console.log("greetund")
+    console.log("Overcomer")
     isAlive = true
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
@@ -77,26 +77,6 @@ function newCard(){
 
 }
 
-
-
-function resetCard() {
-    if (hasBlackJack === true || totalCard > 21){
-        console.log("umknown")
-       
-        
-let firstCard = 0
-let secondCard = 0;
-let cards = []
-let totalCard = 0;
-//bolean starts
-let hasBlackJack = false;
-let isAlive = true;
-let message = " ";
-        renderGame()
-    }
-
-
-}
 
 
    
